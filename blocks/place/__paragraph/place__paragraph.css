@@ -8,10 +8,34 @@
     margin-bottom: 26px;
     width: 484px;
     align-self: flex-start;
-    border: solid 1px red;
 }
 
 .place__paragraph:last-child{
     grid-column: 2/3;
     margin: 0;
+}
+@media screen and (max-width: 1279px) {
+    .place__paragraph{
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph{
+        width: 352px;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraph{
+        width: 288px;
+        font-size: 16px;
+        margin: 0 auto 25px;
+    }
+    .place__paragraph:last-child{
+        grid-column: 1;
+        margin: 0 auto;
+    }
 }

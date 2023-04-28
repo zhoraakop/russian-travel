@@ -4,5 +4,29 @@
     display: grid;
     row-gap: 80px;
     grid-template: 660px 584px 584px 660px 584px / 1fr ;
-    border: solid 1px red;
+}
+
+@media screen and (max-width: 1279px) {
+    .places{
+        width: 928px;
+    }
+    
+}
+
+@media screen and (max-width: 1023px) {
+    .places{
+        width: 720px;
+        row-gap: 73px;
+        grid-template: 581px 535px 483px 434px 484px / 1fr ;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .places{
+        width: 320px;
+        row-gap: 50px;
+        grid-template: 1042px 1016px 990px 964px 965px / 1fr ;
+    }
+    
 }

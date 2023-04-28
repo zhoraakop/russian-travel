@@ -5,4 +5,9 @@
     font-size: 18px;
     line-height: 22px;
     color: white;
+    transition: opacity linear;
+}
+
+.place__website_link:hover{
+    opacity: .8;
 }

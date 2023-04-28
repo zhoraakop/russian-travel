@@ -2,5 +2,17 @@
     width: 456px;
     align-self: end;
     margin: 0 0 48px 0;
-    border: solid 1px red;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__website{
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__website{
+        width: 288px;
+        margin: 0 auto 32px;
+    }
 }
