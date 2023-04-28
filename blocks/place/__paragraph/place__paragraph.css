@@ -1,0 +1,17 @@
+.place__paragraph{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+    margin-bottom: 26px;
+    width: 484px;
+    align-self: flex-start;
+    border: solid 1px red;
+}
+
+.place__paragraph:last-child{
+    grid-column: 2/3;
+    margin: 0;
+}

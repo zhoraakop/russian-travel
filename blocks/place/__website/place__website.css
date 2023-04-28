@@ -1,0 +1,6 @@
+.place__website{
+    width: 456px;
+    align-self: end;
+    margin: 0 0 48px 0;
+    border: solid 1px red;
+}
