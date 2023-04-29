@@ -1,5 +1,6 @@
 .intro{
     width: 984px;
+    height: 429px;
     display: flex;
     flex-wrap: wrap;
     margin: 92px auto;
@@ -25,6 +26,7 @@
     .intro{
         margin: 64px auto;
         width: 288px;
+        min-height: 754px;
     }
     
 }
