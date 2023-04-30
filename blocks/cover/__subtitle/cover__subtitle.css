@@ -2,12 +2,19 @@
     width: 360px;
     z-index: 1;
     margin: 32px 0 0;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+    text-decoration: none;
+    color: white;
     
+}
+
+.cover__overlay.cover__subtitle:hover{
+    opacity: .3;
 }
 
 @media screen and (max-width: 767px) {
