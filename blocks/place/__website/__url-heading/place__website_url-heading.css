@@ -1,4 +1,4 @@
-.place__website__url-heading{
+.place__url-heading{
     color: rgba(170, 170, 170, 1);
     font-family: 'Inter';
     font-style: normal;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .place__website__url-heading{
+    .place__url-heading{
         margin-bottom: 12px;
     }
     
