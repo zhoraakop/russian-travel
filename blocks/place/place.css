@@ -5,7 +5,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content min-content 1fr;
     column-gap: 40px;
+    row-gap: 48px;
 }
+
 
 @media screen and (max-width: 1279px) {
     .place{
@@ -26,10 +28,10 @@
 @media screen and (max-width: 767px) {
     .place{
         width: 320px;
-
+        row-gap: 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, min-content);
         column-gap: 0;
     }
-    
+
 }

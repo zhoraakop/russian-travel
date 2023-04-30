@@ -6,3 +6,10 @@
     font-size: 12px;
     line-height: 12px;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website__url-heading{
+        margin-bottom: 12px;
+    }
+    
+}

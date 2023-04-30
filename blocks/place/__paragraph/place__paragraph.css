@@ -10,9 +10,9 @@
     align-self: flex-start;
 }
 
-.place__paragraph:last-child{
+.place__paragraph:nth-of-type(2n){
     grid-column: 2/3;
-    margin: 0;
+    margin: -48px 0 0;
 }
 @media screen and (max-width: 1279px) {
     .place__paragraph{
@@ -36,6 +36,6 @@
     }
     .place__paragraph:last-child{
         grid-column: 1;
-        margin: 0 auto;
+        margin: 0 auto 0;
     }
 }
