@@ -1,9 +1,7 @@
 .cover__subtitle{
-    width: 360px;
+    max-width: 360px;
     z-index: 1;
     margin: 32px 0 0;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -13,13 +11,9 @@
     
 }
 
-.cover__overlay.cover__subtitle:hover{
-    opacity: .3;
-}
-
 @media screen and (max-width: 767px) {
     .cover__subtitle{
-        width: 288px;
+        max-width: 288px;
         margin-top: 16px;
         font-size: 14px;
         line-height: 16px;
