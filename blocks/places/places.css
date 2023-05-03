@@ -19,7 +19,6 @@
         margin-top: 88px;
         max-width: 720px;
         row-gap: 73px;
-        grid-template: repeat(5, max-content) / 1fr;
     }
     
 }

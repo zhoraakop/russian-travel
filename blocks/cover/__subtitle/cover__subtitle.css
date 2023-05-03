@@ -8,12 +8,6 @@
     text-align: center;
     text-decoration: none;
     color: white;
-    transition: opacity 1s linear;
-    
-}
-
-.cover__subtitle:hover{
-    opacity: .8;
 }
 
 @media screen and (max-width: 767px) {
